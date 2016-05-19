@@ -1,0 +1,133 @@
+<routes>
+	<route name="Compton 3F" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>LON,WOD,CPT</navaids>
+		<activeStartRunways>27R</activeStartRunways>
+		<intercept start="R2292" startHeading="270" end="7NM257@LON" endHeading="257" endOffset="0" speed="240" direction="left" text="257" arrows="end"/>
+		<line start="7NM257@LON" end="WOD" arrows="end" />
+		<line start="WOD" end="CPT" text="282-6000" arrows="end" />
+		<screenText screenPos="120,710" clickable="true" font="Arial" fontSize="20" text="Compton 3F" />
+	</route>
+		
+	<route name="Compton 4K" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>LON,WOD,CPT</navaids>
+		<activeStartRunways>09L</activeStartRunways>
+		<line start="R2295" end="LON15" arrows="end" />
+		<line start="17NM102@WOD" end="WOD" arrows="end" text="282-3000" />
+		<intercept start="LON15" startHeading="090" end="51.397672,-0.432890" endHeading="270" direction="right" arrows="end" />
+		<screenText screenPos="120,690" clickable="true" font="Arial" fontSize="20" text="Compton 4K" />
+	</route>
+	
+	<route name="Midhurst 4F" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>LON,MID,BUR</navaids>
+		<activeStartRunways>27R</activeStartRunways>
+		<intercept start="R2292" startHeading="270" end="5NM257@LON" endHeading="257" direction="left" arrows="end" text="257-6000" />
+		<intercept start="5NM257@LON" startHeading="257" end="51.294619,-0.554322" endHeading="162" arrows="end" direction="left" text="162-6000" />
+		<line start="51.294619,-0.554322" end="MID" text="192" arrows="end" />
+		<screenText screenPos="120,670" clickable="true" font="Arial" fontSize="20" text="Midhurst 4F" />
+	</route>
+	
+	<route name="Midhurst 3K" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>LON,MID</navaids>
+		<activeStartRunways>09L</activeStartRunways>
+		<line start="R2295" end="LON15" arrows="end" />
+		<line start="LON15" end="51.453570,-0.390123" arrows="end" />
+		<line start="3.5NM126@LON" end="MID" text="207-6000" arrows="end" />
+		<screenText screenPos="120,650" clickable="true" font="Arial" fontSize="20" text="Midhurst 3K" />
+	</route>
+	
+	<route name="Brookman's Park 5K" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>LON,BPK,BAPAG</navaids>
+		<activeStartRunways>09L</activeStartRunways>
+		<line start="R2295" end="LON15" arrows="end" />
+		<line start="LON15" end="51.507256,-0.372215" arrows="end" text="051-6000" />
+		<intercept start="51.507256,-0.372215" startHeading="051" endHeading="072" end="10NM072@LON" direction="right" arrows="end" text="072" />
+		<intercept start="10NM072@LON" startHeading="072" endHeading="017" end="BAPAG" arrows="end" text="017" direction="left" />
+		<line start="BAPAG" end="BPK" arrows="end" />
+		<screenText screenPos="120,630" clickable="true" font="Arial" fontSize="20" text="Brookman's Park 5K" />
+	</route>
+	
+	<route name="Brookman's Park 7F" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>CHT,BUR,BPK</navaids>
+		<activeStartRunways>27R</activeStartRunways>
+		<intercept start="R2292" startHeading="270" endHeading="299" end="51.501639,-0.625772" direction="right" arrows="end" text="299-6000" />
+		<line start="51.501639,-0.625772" end="51.565848,-0.645492" arrows="end" text="350" />
+		<line start="51.565848,-0.645492" end="51.594396,-0.581853" arrows="end" text="055" />
+		<line start="51.594396,-0.581853" end="CHT" arrows="end" />
+		<line start="CHT" end="BPK" arrows="end" text="065" />
+		<screenText screenPos="120,610" clickable="true" font="Arial" fontSize="20" text="Brookman's Park 7F" />
+	</route>
+	
+	<route name="Wobun 3F" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>WOBUN,BUR,MID</navaids>
+		<activeStartRunways>27R</activeStartRunways>
+		<intercept start="R2292" startHeading="270" endHeading="299" end="BUR" direction="right" text="299-6000" arrows="end" />
+		<line start="BUR" end="WOBUN" arrows="end" text="357" />
+		<screenText screenPos="120,590" clickable="true" font="Arial" fontSize="20" text="Wobun 3F" />
+	</route>
+	
+		<route name="Wobun 3K" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>BUZAD,LON,BIG</navaids>
+		<activeStartRunways>09L</activeStartRunways>
+		<line start="R2295" end="LON15" arrows="end" />
+		<line start="LON15" end="51.507134,-0.372315" />
+		<line start="51.507134,-0.372315" end="10NM072@LON" arrows="end" text="051-6000" />
+		<intercept start="10NM072@LON" startHeading="072" endHeading="330" end="BUZAD" direction="left" arrows="end" text="330" />
+		<screenText screenPos="120,570" clickable="true" font="Arial" fontSize="20" text="Wobun 3K" />
+	</route>
+		
+	<route name="DETLING 2F" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>EPM,DET</navaids>
+		<activeStartRunways>27R</activeStartRunways>
+		<line start="R2292" end="ILL02" arrows="end" />
+		<intercept start="ILL02" startHeading="270" endHeading="138" end="EPM" direction="left" arrows="end" text="138-6000" />
+		<line start="EPM" end="DET" text="092" arrows="end" />
+		<screenText screenPos="120,550" clickable="true" font="Arial" fontSize="20" text="DETLING 2F" />
+	</route>
+	
+	<route name="DETLING 1K" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>DET</navaids>
+		<activeStartRunways>09L</activeStartRunways>
+		<line start="R2295" end="LON15" arrows="end" />
+		<intercept start="LON15" startHeading="090" endHeading="122" end="DET34" direction="right" arrows="end" text="122-6000" />
+		<line start="DET34" end="DET" arrows="end" text="104" />
+		<screenText screenPos="120,530" clickable="true" font="Arial" fontSize="20" text="DETLING 1K" />
+	</route>
+	
+	<route name="GOGSI 1F" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>LON,WOD,GOGSI,SAM</navaids>
+		<activeStartRunways>27R</activeStartRunways>
+		<intercept start="R2292" startHeading="270" endHeading="257" end="7NM257@LON" direction="left" arrows="end" text="257-6000" />
+		<line start="7NM257@LON" end="51.453479,-0.810343" arrows="end" text="270" />
+		<intercept start="51.453479,-0.810343" startHeading="270" endHeading="214" end="GOGSI" direction="left" arrows="end" text="214" />
+		<screenText screenPos="120,510" clickable="true" font="Arial" fontSize="20" text="GOGSI 1F" />
+	</route>
+	
+	<route name="GASGU 1K" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>LON,OCK,GASGU</navaids>
+		<activeStartRunways>09L</activeStartRunways>
+		<line start="R2295" end="LON15" arrows="end" />
+		<line start="LON15" end="5NM126@LON" arrows="end" text="126-6000" />
+		<intercept start="5NM126@LON" startHeading="126" endHeading="223" end="OCK" direction="right" arrows="end" text="223" />
+		<line start="OCK" end="GASGU" arrows="end" text="255" />
+		<screenText screenPos="120,490" clickable="true" font="Arial" fontSize="20" text="GASGU 1K" />
+	</route>
+	
+	<route name="MAYFIELD 3F" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>LON,EPM,OCK,MAY</navaids>
+		<activeStartRunways>27R</activeStartRunways>
+		<line start="R2292" end="ILL02" arrows="end" />
+		<intercept start="ILL02" startHeading="270" endHeading="138" end="EPM" arrows="end" text="138-6000" direction="left" />
+		<line start="EPM" end="MAY" text="136" arrows="end" />
+		<screenText screenPos="120,470" clickable="true" font="Arial" fontSize="20" text="MAYFIELD 3F" />
+	</route>
+	
+	<route name="MAYFIELD 2K" color="218,26,29" zoomMin="0" zoomMax="300" displayMode="sid">
+		<navaids>LON,EPM,MID,MAY</navaids>
+		<activeStartRunways>09L</activeStartRunways>
+		<line start="R2295" end="LON15" arrows="end" />
+		<line start="LON15" end="3.5NM126@LON" arrows="end" text="143-6000" />
+		<intercept start="3.5NM126@LON" startHeading="126" endHeading="207" end="20NM027@MID" arrows="end" text="207" direction="right" />
+		<intercept start="20NM027@MID" startHeading="207" endHeading="136" end="MAY" arrows="end" text="136" direction="left" />
+		<screenText screenPos="120,450" clickable="true" font="Arial" fontSize="20" text="MAYFIELD 2K" />
+	</route>
+</routes>
