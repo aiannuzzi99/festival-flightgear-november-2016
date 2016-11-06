@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<routes>
+	<addPoint code="GOGSI" point="51.289558,-0.993661"/>
+	<addPoint code="GASGU" point="51.207750,-0.963893"/>
+	<addPoint code="GASGU" point="51.207750,-0.963893"/>
+	<addPoint code="25s" point="51.555441,-0.407724"/>
+	<addPoint code="07s" point="51.549906,-0.431517"/>
+	<addPoint code="NIGHT" point="30NM270@TOMMO"/>
+	<addPoint code="ETVAX" point="10NM316@ROTNO"/>
+	<addPoint code="26Ls" point="51.151227,-0.167490" />
+	<addPoint code="08Rs" point="51.145006,-0.212674" />
+	<addPoint code="27s" point="51.504795,0.066723" />
+	<addPoint code="09s" point="51.505562,0.043568" />
+	<addPoint code="UNDUG" point="50.810586,0.392700"/>
+	<addPoint code="ised66" point="51.769077,0.061251"/>
+	<addPoint code="UNDUG" point="50.810586,0.392700"/>
+	<addPoint code="ised66" point="51.769077,0.061251"/>
+	<addPoint code="ISX2" point="51.875656,0.220823"/>
+	<addPoint code="UNDUG" point="50.810586,0.392700"/>
+	<addPoint code="ised66" point="51.769077,0.061251"/>
+	<addPoint code="UNDUG" point="50.810586,0.392700"/>
+	<addPoint code="Turn" point="52.022192,0.333846"/>
+	<addPoint code="TURN" point="51.863768,0.203118"/>
+	<addPoint code="33s" point="52.446097,-1.739448" />
+	<addPoint code="15s" point="52.465832,-1.760978" />
+	<addPoint code="22s" point="51.895399,0.250339" />
+	<addPoint code="04s" point="51.874796,0.219604" />
+</routes>
